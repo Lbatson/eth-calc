@@ -33,7 +33,7 @@ export default function Main() {
       <Container maxWidth="xs" className={styles.main}>
         <Grid container justifyContent="center" height="100%">
           <Grid className={styles.fade} alignSelf="end">
-            <img className={styles.image} height="100px" src="https://ethereum.org/static/4f10d2777b2d14759feb01c65b2765f7/69ce7/eth-glyph-colored.webp"/>
+            <img className={styles.image} alt="Ethereum logo" height="100px" src="https://ethereum.org/static/4f10d2777b2d14759feb01c65b2765f7/69ce7/eth-glyph-colored.webp"/>
             <h1 className={styles.title}>Ethereum Calculator</h1>
           </Grid>
           <Grid>

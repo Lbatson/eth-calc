@@ -1,4 +1,4 @@
-import Button from '@mui/material/Button';
+import MuiButton from '@mui/material/Button';
 
 export interface ButtonProps {
     text: string,
@@ -6,8 +6,10 @@ export interface ButtonProps {
     onClick: (value: string) => void
 }
 
-export default function({ text, value, onClick }: ButtonProps) {
+const Button = ({ text, value, onClick }: ButtonProps) => {
     return (
-        <Button variant="text" size="large" onClick={() => onClick(value)}>{text}</Button>
+        <MuiButton variant="text" size="large" onClick={() => onClick(value)}>{text}</MuiButton>
     )
 }
+
+export default Button;
