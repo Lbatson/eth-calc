@@ -1,0 +1,23 @@
+.calculator {
+    background-color: rgba(17, 24, 39, 0.95);
+    border: 1px solid #0c4a6e;
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem 0 rgba(17, 24, 39, 0.95);
+    padding: 1.25rem 1.5rem;
+}
+
+.gradient {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    z-index: -1;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: #00b594;
+    -webkit-filter: blur(60px);
+    filter: blur(60px);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
